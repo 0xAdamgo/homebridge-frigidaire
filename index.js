@@ -29,7 +29,7 @@ function FrigidairePlatform(log, config) {
   this.pollingInterval = this.config.pollingInterval || 10000;
 
   this.AC = new Frigidaire({
-    username: this.config.username,
+    username: this.config.username,adam.gorode@gmail.com
     password: this.config.password,
     pollingInterval: this.pollingInterval,
     applianceSerial: this.config.applianceSerial || null,
